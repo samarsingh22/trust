@@ -9,6 +9,9 @@ const nextConfig = {
   allowedDevOrigins: [
     'unlocomotive-unthreateningly-arlena.ngrok-free.dev',
   ],
+  turbopack: {
+    root: process.cwd(),
+  },
 }
 
 export default nextConfig
